@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" 
+        type="text/css" />
+    <script src="@Url.Content("~/Scripts/jquery-1.4.4.min.js")" 
+        type="text/javascript"></script>
+    <link type="text/css" href="@Url.Content("~/Menu/menu.css")" rel="stylesheet" />
+    <script type="text/javascript" src="@Url.Content("~/Menu/jquery.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Menu/menu.js")"></script>
+</head>
+<body>
+
+    <div id="menu">
+        <ul class="menu">
+            <li><a href="/AnaSayfa/Index" class="parent"><span>AnaSayfa</span></a>
+                <div>
+                    <ul>
+                        <li><a href="/Urun/Index"><span>Ürünlerimiz</span></a></li>
+                        <li><a href="/UrunYonetimi/Index"><span>Ürün Kontrolü</span></a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="/AnaSayfa/Index"><span>Kahve Çeşitlerimiz</span></a>
+                @{Html.RenderAction("CesitMenu", "Urun");}
+            </li>
+            <li><a href="/Hesap/KayitOl"><span>Kayıt Ol</span></a></li>
+            <li><a href="/Hesap/Giris"><span>Oturum Aç</span></a></li>
+            <li class="last"><a href="http://apycom.com/"></a></li>
+        </ul>
+    </div>
+
+    <div id="header">
+        <ul id="navlist">
+            @{Html.RenderAction("AlisverisOzeti", "AlisverisListesi");}
+        </ul>
+    </div>
+
+    <div id="main">
+        @RenderBody()
+    </div>
+
+</body>
+</html>

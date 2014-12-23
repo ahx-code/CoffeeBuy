@@ -1,0 +1,30 @@
+﻿@model CoffeeBuy.Models.Kahve
+
+@{
+    ViewBag.Title = " Kahve - " + Model.Baslik;
+}
+
+<h2>@Model.Baslik</h2>
+
+<p>
+    <img alt="@Model.Baslik" src="@Model.KahveResimUrl" />
+</p>
+
+<div id="album-details">
+    <p>
+        <em>Çesidi:</em>
+        @Model.Cesit.Ad
+    </p>
+    <p>
+        <em>Yapan Firma:</em>
+        @Model.Firma.Ad
+    </p>
+    <p>
+        <em>Fiyatı:</em>
+        @String.Format("{0:F}", Model.Fiyat)
+    </p>
+    <p class="button">
+        @Html.ActionLink("Listeye Ekle", "ListeyeEkle", 
+        "AlisverisListesi", new { id = Model.KahveId }, "")
+    </p>
+</div>

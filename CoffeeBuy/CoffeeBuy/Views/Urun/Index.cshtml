@@ -1,0 +1,14 @@
+﻿@model IEnumerable<CoffeeBuy.Models.Cesit>
+@{
+    ViewBag.Title = "Urunlerimiz";
+}
+<h3>Ürünlerimizde Araştır</h3>
+
+<p>
+    @Model.Count() Çeşidimizden Seçebilirsiniz : </p>
+<ul>
+    @foreach (var cesit in Model)
+    {
+        <li>@Html.ActionLink(cesit.Ad, "Arastir", new { cesit = cesit.Ad })</li>
+    }
+</ul>

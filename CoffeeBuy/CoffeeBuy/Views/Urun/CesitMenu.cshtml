@@ -1,0 +1,13 @@
+﻿@model IEnumerable<CoffeeBuy.Models.Cesit>
+<div>
+    <ul>
+        @foreach (var cesit in Model)
+        {
+            <li>
+                @Html.ActionLink(cesit.Ad,
+                "Arastir", "Urun",
+                new { Cesit = cesit.Ad }, null)
+            </li>
+        }
+    </ul>
+</div>

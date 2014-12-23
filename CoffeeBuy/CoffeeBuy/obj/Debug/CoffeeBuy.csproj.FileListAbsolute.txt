@@ -1,0 +1,43 @@
+C:\Users\ahmet.tavli\Documents\UBE Bilgi Teknolojileri Tezli Yüksek Lisans\UBI 543 Güvenli Web Dizaynı\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\CoffeeBuy.dll
+C:\Users\ahmet.tavli\Documents\UBE Bilgi Teknolojileri Tezli Yüksek Lisans\UBI 543 Güvenli Web Dizaynı\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\CoffeeBuy.pdb
+C:\Users\ahmet.tavli\Documents\UBE Bilgi Teknolojileri Tezli Yüksek Lisans\UBI 543 Güvenli Web Dizaynı\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\EntityFramework.dll
+C:\Users\ahmet.tavli\Documents\UBE Bilgi Teknolojileri Tezli Yüksek Lisans\UBI 543 Güvenli Web Dizaynı\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ahmet.tavli\Documents\UBE Bilgi Teknolojileri Tezli Yüksek Lisans\UBI 543 Güvenli Web Dizaynı\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\System.Web.Helpers.dll
+C:\Users\ahmet.tavli\Documents\UBE Bilgi Teknolojileri Tezli Yüksek Lisans\UBI 543 Güvenli Web Dizaynı\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\System.Web.Mvc.dll
+C:\Users\ahmet.tavli\Documents\UBE Bilgi Teknolojileri Tezli Yüksek Lisans\UBI 543 Güvenli Web Dizaynı\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\System.Web.Providers.dll
+C:\Users\ahmet.tavli\Documents\UBE Bilgi Teknolojileri Tezli Yüksek Lisans\UBI 543 Güvenli Web Dizaynı\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\System.Web.Razor.dll
+C:\Users\ahmet.tavli\Documents\UBE Bilgi Teknolojileri Tezli Yüksek Lisans\UBI 543 Güvenli Web Dizaynı\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ahmet.tavli\Documents\UBE Bilgi Teknolojileri Tezli Yüksek Lisans\UBI 543 Güvenli Web Dizaynı\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\System.Web.WebPages.dll
+C:\Users\ahmet.tavli\Documents\UBE Bilgi Teknolojileri Tezli Yüksek Lisans\UBI 543 Güvenli Web Dizaynı\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\System.Web.WebPages.Razor.dll
+C:\Users\ahmet.tavli\Documents\UBE Bilgi Teknolojileri Tezli Yüksek Lisans\UBI 543 Güvenli Web Dizaynı\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\EntityFramework.xml
+C:\Users\ahmet.tavli\Documents\UBE Bilgi Teknolojileri Tezli Yüksek Lisans\UBI 543 Güvenli Web Dizaynı\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\System.Web.Helpers.xml
+C:\Users\ahmet.tavli\Documents\UBE Bilgi Teknolojileri Tezli Yüksek Lisans\UBI 543 Güvenli Web Dizaynı\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\System.Web.Mvc.xml
+C:\Users\ahmet.tavli\Documents\UBE Bilgi Teknolojileri Tezli Yüksek Lisans\UBI 543 Güvenli Web Dizaynı\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\System.Web.Razor.xml
+C:\Users\ahmet.tavli\Documents\UBE Bilgi Teknolojileri Tezli Yüksek Lisans\UBI 543 Güvenli Web Dizaynı\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\System.Web.WebPages.xml
+C:\Users\ahmet.tavli\Documents\UBE Bilgi Teknolojileri Tezli Yüksek Lisans\UBI 543 Güvenli Web Dizaynı\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ahmet.tavli\Documents\UBE Bilgi Teknolojileri Tezli Yüksek Lisans\UBI 543 Güvenli Web Dizaynı\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\System.Web.WebPages.Razor.xml
+C:\Users\ahmet.tavli\Documents\UBE Bilgi Teknolojileri Tezli Yüksek Lisans\UBI 543 Güvenli Web Dizaynı\FinalProjesi\CoffeeBuy\CoffeeBuy\obj\Debug\CoffeeBuy.dll
+C:\Users\ahmet.tavli\Documents\UBE Bilgi Teknolojileri Tezli Yüksek Lisans\UBI 543 Güvenli Web Dizaynı\FinalProjesi\CoffeeBuy\CoffeeBuy\obj\Debug\CoffeeBuy.pdb
+C:\Users\ahmet.tavli\Documents\UBE Bilgi Teknolojileri Tezli Yüksek Lisans\UBI 543 Güvenli Web Dizaynı\FinalProjesi\CoffeeBuy\CoffeeBuy\obj\Debug\CoffeeBuy.csprojResolveAssemblyReference.cache
+C:\Users\Ahmet\Downloads\MVC Projem\MVC Web Projesi\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\CoffeeBuy.dll.config
+C:\Users\Ahmet\Downloads\MVC Projem\MVC Web Projesi\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\CoffeeBuy.dll
+C:\Users\Ahmet\Downloads\MVC Projem\MVC Web Projesi\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\CoffeeBuy.pdb
+C:\Users\Ahmet\Downloads\MVC Projem\MVC Web Projesi\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\EntityFramework.dll
+C:\Users\Ahmet\Downloads\MVC Projem\MVC Web Projesi\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ahmet\Downloads\MVC Projem\MVC Web Projesi\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\System.Web.Helpers.dll
+C:\Users\Ahmet\Downloads\MVC Projem\MVC Web Projesi\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\System.Web.Mvc.dll
+C:\Users\Ahmet\Downloads\MVC Projem\MVC Web Projesi\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\System.Web.Providers.dll
+C:\Users\Ahmet\Downloads\MVC Projem\MVC Web Projesi\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\System.Web.Razor.dll
+C:\Users\Ahmet\Downloads\MVC Projem\MVC Web Projesi\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ahmet\Downloads\MVC Projem\MVC Web Projesi\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\System.Web.WebPages.dll
+C:\Users\Ahmet\Downloads\MVC Projem\MVC Web Projesi\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ahmet\Downloads\MVC Projem\MVC Web Projesi\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\EntityFramework.xml
+C:\Users\Ahmet\Downloads\MVC Projem\MVC Web Projesi\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\System.Web.Helpers.xml
+C:\Users\Ahmet\Downloads\MVC Projem\MVC Web Projesi\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\System.Web.Mvc.xml
+C:\Users\Ahmet\Downloads\MVC Projem\MVC Web Projesi\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\System.Web.Razor.xml
+C:\Users\Ahmet\Downloads\MVC Projem\MVC Web Projesi\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\System.Web.WebPages.xml
+C:\Users\Ahmet\Downloads\MVC Projem\MVC Web Projesi\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ahmet\Downloads\MVC Projem\MVC Web Projesi\FinalProjesi\CoffeeBuy\CoffeeBuy\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ahmet\Downloads\MVC Projem\MVC Web Projesi\FinalProjesi\CoffeeBuy\CoffeeBuy\obj\Debug\CoffeeBuy.csprojResolveAssemblyReference.cache
+C:\Users\Ahmet\Downloads\MVC Projem\MVC Web Projesi\FinalProjesi\CoffeeBuy\CoffeeBuy\obj\Debug\CoffeeBuy.dll
+C:\Users\Ahmet\Downloads\MVC Projem\MVC Web Projesi\FinalProjesi\CoffeeBuy\CoffeeBuy\obj\Debug\CoffeeBuy.pdb

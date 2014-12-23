@@ -1,0 +1,19 @@
+﻿@model List<CoffeeBuy.Models.Kahve>
+@{
+    ViewBag.Title = "CoffeeBuy.com";
+}
+<div id="promotion">
+</div>
+
+
+<ul id="album-list">
+    @foreach (var kahve in Model)
+    {
+        <li><a href="@Url.Action("Detay", "Urun",
+                new { id = kahve.KahveId })">
+
+            <img alt="@kahve.Baslik" src="@kahve.KahveResimUrl" />
+            <span>@kahve.Baslik</span> </a>
+        </li>
+    }
+</ul>

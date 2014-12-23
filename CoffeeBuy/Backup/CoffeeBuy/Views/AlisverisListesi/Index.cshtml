@@ -1,0 +1,103 @@
+﻿@model CoffeeBuy.ViewModels.AlisverisListesiViewModel
+@{
+    ViewBag.Title = "Alışveriş Listesi";
+}
+<script src="/Scripts/jquery-1.4.4.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(function () {
+        // Document.ready -> link up remove event handler
+        $(".RemoveLink").click(function () {
+            // Get the id from the link
+            var recordToDelete = $(this).attr("data-id");
+
+            if (recordToDelete != '') {
+
+                // AlisverisListesi.cs teki metod.
+                $.post("/AlisverisListesi/ListedenCikar", { "id": recordToDelete },
+                    function (data) {
+                        // Successful requests get here
+                        // Update the page elements
+                        if (data.ItemCount == 0) {
+                            $('#row-' + data.DeleteId).fadeOut('slow');
+                        } else {
+                            $('#item-count-' + data.DeleteId).text(data.ItemCount);
+                        }
+
+                        $('#cart-total').text(data.CartTotal);
+                        $('#update-message').text(data.Message);
+                        $('#cart-status').text('Cart (' + data.CartCount + ')');
+                    });
+            }
+        });
+
+    });
+
+
+    function handleUpdate() {
+        // Load and deserialize the returned JSON data
+        var json = context.get_data();
+        var data = Sys.Serialization.JavaScriptSerializer.deserialize(json);
+
+        // Update the page elements
+        if (data.ItemCount == 0) {
+            $('#row-' + data.DeleteId).fadeOut('slow');
+        } else {
+            $('#item-count-' + data.DeleteId).text(data.ItemCount);
+        }
+
+        $('#cart-total').text(data.CartTotal);
+        $('#update-message').text(data.Message);
+        $('#cart-status').text('Cart (' + data.CartCount + ')');
+    }
+</script>
+<h3>
+    <em>Review</em> your cart:
+</h3>
+<p class="button">
+    @Html.ActionLink("Checkout >>", "AdresveOdeme", "Checkout")
+</p>
+<div id="update-message">
+</div>
+<table>
+    <tr>
+        <th>
+            Kahvenin Adı :
+        </th>
+        <th>
+            Fiyatı (Herbirisi İçin)
+        </th>
+        <th>
+            Miktar
+        </th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model.ListeItems)
+    {
+        <tr id="row-@item.KayitId">
+            <td>
+                @Html.ActionLink(item.Kahve.Baslik, "Detay", "Urun", new { id = item.KahveId }, null)
+            </td>
+            <td>
+                @item.Kahve.Fiyat
+            </td>
+            <td id="item-count-@item.KayitId">
+                @item.Adet
+            </td>
+            <td>
+                <a href="#" class="RemoveLink" data-id="@item.KayitId">Listeden Çıkar</a>
+            </td>
+        </tr>
+    }
+    <tr>
+        <td>
+            Total
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td id="cart-total">
+            @Model.ListeTotal
+        </td>
+    </tr>
+</table>
